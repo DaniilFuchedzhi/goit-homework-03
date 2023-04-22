@@ -1,0 +1,306 @@
+:root {
+    --clr1: #FFFFFF;
+    --clr2: #434455;
+    --clr3: #2e2f42;
+    --clr4: #404bbf;
+    --clr5: #4D5AE5;
+    --clr6: #F4F4FD;
+    --ul1: #ffffff00;
+}
+
+/* Body */
+
+.body{
+    position: relative;
+    background-color: var(--clr1);
+    font-family: 'Roboto','sans-serif';
+    position: relative;
+    width: 1440px;
+    height: 2592px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+
+
+/* WebStudio logo */
+.web-item{
+    color: var(--clr5);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    width: 44px;
+    height: 21px;
+}
+
+.studio-item{
+    color: var(--clr3);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    width: 71px;
+    height: 21px;
+}
+
+/* Logo links */
+
+.logo-links{
+    color: var(--ul1);
+}
+
+/* Studio logo */
+
+.studio-logo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr3);
+    width: 48px;
+    height: 24px;
+    
+}
+.studio-logo:hover,
+.studio-logo:active {
+    color: var(--clr4);
+}
+
+/* Portfolio logo */
+
+.portfolio-logo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr3);
+    width: 66px;
+    height: 24px;
+}
+
+.portfolio-logo:hover,
+.portfolio-logo:active{
+    color: var(--clr4);
+}
+
+/* Contacts logo */
+
+.contacts-logo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr3);
+    width: 67px;
+    height: 24px;
+}
+
+.contacts-logo:hover,
+.contacts-logo:active{
+    color: var(--clr4); 
+}
+
+/* Address links */
+
+.address-links{
+    color: var(--ul1);
+}
+
+/* Gmail link*/
+
+.gmail-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr2);
+}
+
+.gmail-link:hover,
+.gmail-link:active{
+    color: var(--clr4)
+}
+
+/* Tel link */
+
+.tel-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr2);
+}
+
+.tel-link:hover,
+.tel-link:active{
+    color: var(--clr4);
+}
+
+/* Hero section */
+
+.hero-section{
+    text-align: center;
+    background-color: var(--clr3);
+    margin: 0;
+}
+
+.hero-slogan{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: var(--clr1);
+}
+
+.hero-button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--clr5);
+}
+
+.hero-button:hover,
+.hero-button:active{
+    background-color: var(--clr4);
+}
+
+/* Values */
+
+.values-section{
+    padding: 120px 0 0 0;
+}
+
+.values{
+    color: var(--ul1);
+}
+
+.values-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr3);
+    width: 264px;
+    height: 24px;
+}
+
+.values-slogan{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr2);
+    width: 264px;
+    height: 72px;
+}
+
+/* About us */
+
+.about-us{
+    width: 323px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--clr3);
+    padding: 120px 0 0 558px;
+}
+
+.about-us-img{
+    color: var(--ul1);
+}
+
+.photo-item{
+    box-sizing: border-box;
+    width: 360px;
+    height: 300px;
+    border: 1px solid #E7E9FC;
+}
+
+/* Our team */
+
+.team-title{
+    width: 162px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.worker-imgs{
+    color: var(--ul1);
+}
+
+.worker-item{
+    width: 264px;
+    height: 260px;
+    mix-blend-mode: normal;
+}
+
+.worker-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr3);
+}
+
+.worker-descr{
+    width: 144px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--clr2);
+    
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--clr2);
+
+}
+
+.st-item{
+    color: var(--clr6);
+}
+
+.site-descr{
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2420px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--clr6);
+    background-color: var(--clr2) ;
+}
