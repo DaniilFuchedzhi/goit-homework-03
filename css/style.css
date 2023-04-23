@@ -81,7 +81,7 @@ a {
 
 /* Gmail link*/
 
-.gmail-link {
+.address-item {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -90,25 +90,9 @@ a {
     color: var(--clr2);
 }
 
-.gmail-link:hover,
-.gmail-link:focus {
+.address-item:hover,
+.address-item:focus {
     color: var(--clr4)
-}
-
-/* Tel link */
-
-.tel-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--clr2);
-}
-
-.tel-link:hover,
-.tel-link:focus {
-    color: var(--clr4);
 }
 
 /* Hero section */
