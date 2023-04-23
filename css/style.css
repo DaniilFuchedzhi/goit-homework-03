@@ -105,22 +105,26 @@ a {
 
 .hero-slogan {
     font-weight: 700;
+    line-height: 1.07;
     font-size: 56px;
-    line-height: 60px;
     letter-spacing: 0.02em;
     color: var(--clr1);
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--clr1);
     background-color: var(--clr5);
+    cursor: pointer;
 }
 
 .hero-button:hover,
-.hero-button:active {
+.hero-button:focus {
     background-color: var(--clr4);
 }
 
