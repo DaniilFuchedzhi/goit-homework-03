@@ -10,16 +10,16 @@
 
 /* Body */
 
-.body{
+.body {
     position: relative;
     background-color: var(--clr1);
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 1440px;
     height: 2592px;
     color: var(--clr2);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ a{
 
 
 /* WebStudio logo */
-.webstudio-logo{
+.webstudio-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -37,7 +37,7 @@ a{
     color: var(--clr3);
 }
 
-.web-item{
+.web-item {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -46,15 +46,16 @@ a{
     text-transform: uppercase;
     color: var(--clr5);
 }
+
 /* Logo links */
 
-.logo-links .list{
+.logo-links .list {
     list-style: none;
 }
 
 /* Studio logo */
 
-.studio-logo{
+.studio-logo {
     font-weight: 500;
     font-size: 1.5;
     line-height: 24px;
@@ -62,6 +63,7 @@ a{
     color: var(--clr3);
     text-decoration: none;
 }
+
 .studio-logo:hover,
 .studio-logo:focus {
     color: var(--clr4);
@@ -69,7 +71,7 @@ a{
 
 /* Portfolio logo */
 
-.portfolio-logo{
+.portfolio-logo {
     font-weight: 500;
     font-size: 1.5;
     line-height: 24px;
@@ -79,13 +81,13 @@ a{
 }
 
 .portfolio-logo:hover,
-.portfolio-logo:active{
+.portfolio-logo:active {
     color: var(--clr4);
 }
 
 /* Contacts logo */
 
-.contacts-logo{
+.contacts-logo {
     font-weight: 500;
     font-size: 1.5;
     line-height: 24px;
@@ -95,23 +97,23 @@ a{
 }
 
 .contacts-logo:hover,
-.contacts-logo:active{
-    color: var(--clr4); 
+.contacts-logo:active {
+    color: var(--clr4);
 }
 
 /* Address links */
 
-.address{
+.address {
     font-style: normal;
 }
 
-.address-links{
+.address-links {
     color: var(--ul1);
 }
 
 /* Gmail link*/
 
-.gmail-link{
+.gmail-link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -121,13 +123,13 @@ a{
 }
 
 .gmail-link:hover,
-.gmail-link:focus{
+.gmail-link:focus {
     color: var(--clr4)
 }
 
 /* Tel link */
 
-.tel-link{
+.tel-link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -137,19 +139,19 @@ a{
 }
 
 .tel-link:hover,
-.tel-link:focus{
+.tel-link:focus {
     color: var(--clr4);
 }
 
 /* Hero section */
 
-.hero-section{
+.hero-section {
     text-align: center;
     background-color: var(--clr3);
     margin: 0;
 }
 
-.hero-slogan{
+.hero-slogan {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
@@ -157,7 +159,7 @@ a{
     color: var(--clr1);
 }
 
-.hero-button{
+.hero-button {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -166,21 +168,21 @@ a{
 }
 
 .hero-button:hover,
-.hero-button:active{
+.hero-button:active {
     background-color: var(--clr4);
 }
 
 /* Values */
 
-.values-section{
+.values-section {
     padding: 120px 0 0 0;
 }
 
-.values{
+.values {
     color: var(--ul1);
 }
 
-.values-name{
+.values-name {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -191,7 +193,7 @@ a{
     height: 24px;
 }
 
-.values-slogan{
+.values-slogan {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -204,7 +206,7 @@ a{
 
 /* About us */
 
-.about-us{
+.about-us {
     width: 323px;
     height: 40px;
     font-style: normal;
@@ -217,11 +219,11 @@ a{
     padding: 120px 0 0 558px;
 }
 
-.about-us-img{
+.about-us-img {
     color: var(--ul1);
 }
 
-.photo-item{
+.photo-item {
     box-sizing: border-box;
     width: 360px;
     height: 300px;
@@ -230,7 +232,7 @@ a{
 
 /* Our team */
 
-.team-title{
+.team-title {
     width: 162px;
     height: 40px;
     font-style: normal;
@@ -242,27 +244,27 @@ a{
     text-transform: capitalize;
 }
 
-.worker-imgs{
+.worker-imgs {
     color: var(--ul1);
 }
 
-.worker-item{
+.worker-item {
     width: 264px;
     height: 260px;
     mix-blend-mode: normal;
 }
 
-.workers{
+.workers {
     width: 264px;
-        height: 380px;
-        left: 732px;
-        top: 1780px;
-        background: var(--clr1);
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
+    height: 380px;
+    left: 732px;
+    top: 1780px;
+    background: var(--clr1);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
-.worker-name{
+.worker-name {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -271,7 +273,7 @@ a{
     color: var(--clr3);
 }
 
-.worker-descr{
+.worker-descr {
     width: 144px;
     height: 24px;
     font-style: normal;
@@ -281,21 +283,21 @@ a{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--clr2);
-    
+
 }
 
 /* Footer */
 
-.footer{
+.footer {
     background-color: var(--clr2);
 
 }
 
-.st-item{
+.st-item {
     color: var(--clr6);
 }
 
-.site-descr{
+.site-descr {
     width: 264px;
     height: 72px;
     left: 156px;
@@ -306,20 +308,19 @@ a{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--clr6);
-    background-color: var(--clr2) ;
+    background-color: var(--clr2);
 }
 
 
 
 
+/* PORTFOLIO */
 
-            /* PORTFOLIO */
-
-.list{
+.list {
     list-style: none;
 }
 
-.prtflio-button{
+.prtflio-button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -331,7 +332,7 @@ a{
 }
 
 .prtflio-button:hover,
-.prtflio-button:focus{
+.prtflio-button:focus {
     color: var(--clr1);
     background-color: var(--clr4);
 }
