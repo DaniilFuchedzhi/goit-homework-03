@@ -13,10 +13,10 @@
 .body{
     position: relative;
     background-color: var(--clr1);
-    font-family: 'Roboto','sans-serif';
-    position: relative;
+    font-family: "Roboto",sans-serif;
     width: 1440px;
     height: 2592px;
+    color: var(--clr2);
 }
 
 a{
@@ -321,4 +321,23 @@ a{
 
             /* PORTFOLIO */
 
+.list{
+    list-style: none;
+}
 
+.prtflio-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--clr5);
+    background-color: var(--clr6);
+}
+
+.prtflio-button:hover,
+.prtflio-button:focus{
+    color: var(--clr1);
+    background-color: var(--clr4);
+}
