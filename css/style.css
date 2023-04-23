@@ -34,17 +34,17 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--clr3);
+    color: var(--clr5);
 }
 
-.web-item {
+.studio-item {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--clr5);
+    color: var(--clr3);
 }
 
 /* Logo links */
@@ -55,7 +55,7 @@ a {
 
 /* Studio logo */
 
-.studio-logo {
+.header-nav-link {
     font-weight: 500;
     font-size: 1.5;
     line-height: 24px;
@@ -64,40 +64,8 @@ a {
     text-decoration: none;
 }
 
-.studio-logo:hover,
-.studio-logo:focus {
-    color: var(--clr4);
-}
-
-/* Portfolio logo */
-
-.portfolio-logo {
-    font-weight: 500;
-    font-size: 1.5;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--clr3);
-    text-decoration: none;
-}
-
-.portfolio-logo:hover,
-.portfolio-logo:active {
-    color: var(--clr4);
-}
-
-/* Contacts logo */
-
-.contacts-logo {
-    font-weight: 500;
-    font-size: 1.5;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--clr3);
-    text-decoration: none;
-}
-
-.contacts-logo:hover,
-.contacts-logo:active {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: var(--clr4);
 }
 
@@ -335,3 +303,4 @@ a {
 .prtflio-button:focus {
     color: var(--clr1);
     background-color: var(--clr4);
+}
