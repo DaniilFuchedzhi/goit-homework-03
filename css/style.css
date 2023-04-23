@@ -278,16 +278,18 @@ a {
 
 /* PORTFOLIO */
 
-.list {
+.button-list 
+.list{
     list-style: none;
 }
 
 .prtflio-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--clr5);
     background-color: var(--clr6);
@@ -297,4 +299,25 @@ a {
 .prtflio-button:focus {
     color: var(--clr1);
     background-color: var(--clr4);
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* cards */
+
+.row-card-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color-scheme: var(--clr3);
+}
+
+.row-card-descr{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--clr2);
 }
