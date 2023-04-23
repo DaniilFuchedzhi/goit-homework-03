@@ -28,62 +28,54 @@ a{
 
 /* WebStudio logo */
 .webstudio-logo{
-    
-    font-family: font-family: "Raleway", sans-serif;
-    font-weight: 800
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--clr3);
+}
+
+.web-item{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--clr5);
 }
-
-.studio-item{
-    color: var(--clr3);
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    width: 71px;
-    height: 21px;
-}
-
 /* Logo links */
 
-.logo-links{
-    color: var(--ul1);
+.logo-links .list{
+    list-style: none;
 }
 
 /* Studio logo */
 
 .studio-logo{
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.5;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--clr3);
-    width: 48px;
-    height: 24px;
-    
+    text-decoration: none;
 }
 .studio-logo:hover,
-.studio-logo:active {
+.studio-logo:focus {
     color: var(--clr4);
 }
 
 /* Portfolio logo */
 
 .portfolio-logo{
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.5;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--clr3);
-    width: 66px;
-    height: 24px;
+    text-decoration: none;
 }
 
 .portfolio-logo:hover,
@@ -94,14 +86,12 @@ a{
 /* Contacts logo */
 
 .contacts-logo{
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.5;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--clr3);
-    width: 67px;
-    height: 24px;
+    text-decoration: none;
 }
 
 .contacts-logo:hover,
@@ -111,6 +101,10 @@ a{
 
 /* Address links */
 
+.address{
+    font-style: normal;
+}
+
 .address-links{
     color: var(--ul1);
 }
@@ -118,16 +112,16 @@ a{
 /* Gmail link*/
 
 .gmail-link{
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.5;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--clr2);
+    color: var(--clr3);
+    text-decoration: none;
 }
 
 .gmail-link:hover,
-.gmail-link:active{
+.gmail-link:focus{
     color: var(--clr4)
 }
 
@@ -143,7 +137,7 @@ a{
 }
 
 .tel-link:hover,
-.tel-link:active{
+.tel-link:focus{
     color: var(--clr4);
 }
 
