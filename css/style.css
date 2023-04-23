@@ -164,15 +164,16 @@ a {
 
 .about-us {
     width: 323px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--clr3);
-    padding: 120px 0 0 558px;
+        height: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--clr3);
+        padding: 120px 0 0 558px;
 }
 
 .about-us-img {
@@ -188,16 +189,21 @@ a {
 
 /* Our team */
 
+.team-section{
+    background-color: var(--clr6);
+}
+
 .team-title {
     width: 162px;
     height: 40px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--clr3);
 }
 
 .worker-imgs {
