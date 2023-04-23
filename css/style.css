@@ -62,7 +62,6 @@ a {
     letter-spacing: 0.02em;
     color: var(--clr3);
     text-decoration: none;
-    cursor: pointer;
 }
 
 .header-nav-link:hover,
@@ -294,6 +293,7 @@ a {
     letter-spacing: 0.04em;
     color: var(--clr5);
     background-color: var(--clr6);
+    cursor: pointer;
 }
 
 .prtflio-button:hover,
@@ -314,6 +314,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color-scheme: var(--clr3);
+    color: var(--clr3);
 }
 
 .row-card-descr{
