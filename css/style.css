@@ -47,12 +47,6 @@ a {
     color: var(--clr3);
 }
 
-/* Logo links */
-
-.logo-links .list {
-    list-style: none;
-}
-
 /* Studio logo */
 
 .header-nav-link {
@@ -260,8 +254,6 @@ a {
 }
 
 .site-descr {
-    width: 264px;
-    height: 72px;
     left: 156px;
     top: 2420px;
     font-style: normal;
@@ -278,7 +270,6 @@ a {
 
 /* PORTFOLIO */
 
-.button-list 
 .list{
     list-style: none;
 }
